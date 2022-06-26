@@ -1,7 +1,7 @@
 import os
 
 if __name__ == '__main__':
-    file_path = input("Absolute path of the excel that would like to combine: ")
+    file_path = input("Absolute path of the files that would like to rename: ")
     files = os.listdir(file_path)
     count = 0
     for f in files:
